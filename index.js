@@ -73,6 +73,8 @@ var firebaseConfig = {
     // Get all our input fields
     email = document.getElementById('email').value
     password = document.getElementById('password').value
+    document.getElementById("myAnchor").href = "http://www.cnn.com/"; 
+
   
     // Validate input fields
     if (validate_email(email) == false || validate_password(password) == false) {
